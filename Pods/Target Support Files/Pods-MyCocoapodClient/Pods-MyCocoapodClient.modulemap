@@ -1,0 +1,6 @@
+framework module Pods_MyCocoapodClient {
+  umbrella header "Pods-MyCocoapodClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
