@@ -27,12 +27,12 @@ Pod::Spec.new do |spec|
   
   spec.subspec 'ios' do |s|
     s.subspec 'ei' do |ss|
-#      ss.source_files = 'MyCocoapodLibrary/ios/ei/*'
-      ss.resources = 'MyCocoapodLibrary/ios/ei/*.{json}'
+      ss.source_files = 'MyCocoapodLibrary/ios/ei/*'
+      #ss.resources = 'MyCocoapodLibrary/ios/ei/*.{json}'
     end
     s.subspec 'enbd' do |ss|
-      ss.resources = 'MyCocoapodLibrary/ios/enbd/*.{json}'
-#      ss.source_files = 'MyCocoapodLibrary/ios/enbd/*'
+      #ss.resources = 'MyCocoapodLibrary/ios/enbd/*.{json}'
+      ss.source_files = 'MyCocoapodLibrary/ios/enbd/*'
     end
   end
 
